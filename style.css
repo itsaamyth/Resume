@@ -1,0 +1,47 @@
+.profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+body{
+padding: 70px;
+background-color:white;
+background-image: url(25367.jpg);
+background-size: cover ;
+background-repeat: no-repeat;
+}
+.skill{
+    background-color: #301392;;   
+    color: white;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    line-height: 10px;
+    border: none;
+}
+.interest{
+    font-size: 15px;
+    margin-bottom: 8px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 5px;
+}
+#cv{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 720px) {
+#cv{
+    padding: 10px;
+}
+body{
+    padding: 15px;
+    }
+}
+/* #head{
+    background-color: #3ba2ff;
+} */
+
